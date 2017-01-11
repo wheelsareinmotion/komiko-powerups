@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Komiko</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav class="white z-depth-0" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">
+        <img src="img/komiko-H-Trans-aquaANDgray.gif" class="responsive-img" style="height:40px;margin-top: 12px;">
+        
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#"><img src="img/diamond.png" alt="" class="responsive-img" style="height:17px;vertical-align: middle;"> How it Works</a></li>
+          <!--
+          <li><a href="#"><img src="img/diamond.png" alt="" class="responsive-img" style="height:17px;vertical-align: middle;"> Solutions</a></li>-->
+          <li><a href="#"><img src="img/mushroom.png" alt="" class="responsive-img" style="height:17px;vertical-align: middle;"> Power-Ups</a></li>
+          <li><a class="waves-effect waves-light btn deep-orange accent-2" class="responsive-img" href="#">Sign-Up</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container modul-space-eight">
+        <div class="row">
+      
+      <div class="col s12 m6">
+        <h1 style="font-size: 1.7rem;font-weight: 700;font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif;">
+        Dedicated to Power-Up Your CRM</h1>
+        <p>The only virtual assistant that will record your emails, new contacts, activities and attachments and sync your mailbox and calendar with your CRM.</p>
+        <a class="waves-effect waves-light btn deep-orange accent-2" style="margin-right: 10px;">free trial</a>
+        <a class="waves-effect waves-light btn blue-grey darken-4">learn more</a>
+        <!--
+        <div class="row">
+          <div class="col s12">
+              <ul class="collection" style="border:none; margin:0;">
+              <li class="collection-item avatar" style="background: transparent;border-bottom: none;">
+                <img src="img/sword.png" alt="" class="circle">
+                <span class="title">Capture Everything</span>
+                <p>simple and quick email and calendar integration</p>
+              </li>
+              <li class="collection-item avatar" style="background: transparent;border-bottom: none;">
+                <img src="img/potion.png" alt="" class="circle">
+                <span class="title">Get Unprecedented Visibility</span>
+                <p>automatically populates contacts, accounts, and opportunities, so you don't have to</p>
+              </li>
+              <li class="collection-item avatar" style="background: transparent;border-bottom: none;">
+                <img src="img/mushroom.png" alt="" class="circle">
+                <span class="title">Know where to focus your time</span>
+                <p>know the accounts and opportunities health score and engagement metrics for you and your team</p>
+              </li>
+              <li class="collection-item avatar" style="background: transparent;border-bottom: none;">
+                <img src="img/coin.png" alt="" class="circle">
+                <span class="title">Score More Deals</span>
+                <p>Komiko will identify, capture and convert new contacts to leads and accounts</p>
+              </li>
+              
+            </ul>
+          </div>
+        </div>-->
+      </div>
+      <div class="col s12 m6">
+        <div id="large-header" class="large-header">
+          <img src="img/robot.png" class="responsive-img" alt="robot by freepik" style="position: absolute;margin-top: 7%;height:70%;margin-left: 7%;">
+          <canvas id="demo-canvas" style="position: absolute;"></canvas>
+        </div>
+      </div>
+    </div>
+
+      </div>
+    </div>
+    <div class="parallax light-blue accent-4"></div>
+  </div>
+
+
+  <div> <!-- class="container"-->
+    <div class="section" style="margin: 0 10%;">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m3">
+        <div class="card medium">
+          <div class="card-image">
+              <img src="img/gohsts.jpg">
+              <span class="card-title">Capture Everything</span>
+            </div>
+            <div class="card-content">
+              <p style="line-height: 1.5;">Simple and quick email and calendar integration</p>
+            </div>
+            <div class="card-action">
+              <a href="#" class="blue-grey-text text-darken-4">Demo</a>
+              <a href="#" class="deep-orange-text text-accent-2">Learn More</a>
+            </div>
+        </div>
+        <!--
+          <div class="icon-block center">
+          <h5 class="center">
+            <img src="img/gohsts.jpg" alt="" class="circle" style="height:70px;">
+          </h5>
+            <h5 class="center">Capture Everything</h5>
+            <p class="light">simple and quick email and calendar integration</p>
+          </div>-->
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card medium">
+            <div class="card-image">
+                <img src="img/fort.jpg">
+                <span class="card-title">Get Unmatched Visibility</span>
+              </div>
+              <div class="card-content">
+                <p style="line-height: 1.5;">Automatically populates contacts, accounts, and opportunities</p>
+              </div>
+              <div class="card-action">
+                <a href="#" class="blue-grey-text text-darken-4">Demo</a>
+                <a href="#" class="deep-orange-text text-accent-2">Learn More</a>
+              </div>
+          </div>
+        <!--
+          <div class="icon-block center">
+            <h5 class="center">
+              <img src="img/fort.jpg" alt="" class="circle" style="height:70px;">
+            </h5>
+            <h5 class="center">Get Unmatched Visibility</h5>
+
+            <p class="light">automatically populates contacts, accounts, and opportunities, so you don't have to</p>
+          </div>-->
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card medium">
+            <div class="card-image">
+                <img src="img/heart.jpg">
+                <span class="card-title">Know Where to Focus Your Time</span>
+              </div>
+              <div class="card-content">
+                <p style="line-height: 1.5;">Accounts and opportunities health scores embedded in CRM</p>
+              </div>
+              <div class="card-action">
+                <a href="#" class="blue-grey-text text-darken-4">Demo</a>
+                <a href="#" class="deep-orange-text text-accent-2">Learn More</a>
+              </div>
+          </div>
+          <!--
+          <div class="icon-block center">
+            <h5 class="center">
+              <img src="img/heart.jpg" alt="" class="circle" style="height:70px;">
+            </h5>
+            <h5 class="center">Know where to focus your time</h5>
+
+            <p class="light">View accounts and opportunities health score and engagement metrics for you and your team Embedded in your CRM</p>
+          </div>-->
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card medium">
+            <div class="card-image">
+                <img src="img/trophy.jpg">
+                <span class="card-title">Score More Deals</span>
+              </div>
+              <div class="card-content">
+                <p style="line-height: 1.5;">Komiko will capture and convert new contacts to leads and accounts</p>
+              </div>
+              <div class="card-action">
+                <a href="#" class="blue-grey-text text-darken-4">Demo</a>
+                <a href="#" class="deep-orange-text text-accent-2">Learn More</a>
+              </div>
+          </div>
+          <!--
+          <div class="icon-block center">
+            <h5 class="center">
+              <img src="img/trophy.jpg" alt="" class="circle" style="height:70px;">
+            </h5>
+            <h5 class="center">Score More Deals</h5>
+
+            <p class="light">Komiko will identify, capture and convert new contacts to leads and accounts</p>
+          </div>-->
+        </div>
+      </div>
+      <div class="row center">
+        <div class="col s12">
+          <a class="waves-effect waves-light btn light-blue accent-4">explore more power-ups</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+  -->
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h3 style="font-weight: 100;">Komiko Integrates Natively with Your App</h3>
+          <br><br>
+          <div class="row">
+            <div class="col s4">
+              <div style="padding: 20px;">
+                <img src="img/SF.png" style="height: 55px;">
+                <p>Salesforce</p>
+              </div>
+            </div>
+            <div class="col s4">
+              <div style="padding: 20px;">
+                <img src="img/DynamicsCRM.png" style="height: 55px;">
+                <p>Microsoft Dynamics CRM</p>
+              </div>
+            </div>
+            <div class="col s4">
+              <div style="padding: 20px;">
+                <img src="img/exchlogo.png" style="height: 55px;">
+                <p>Microsoft Exchange</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col s4">
+                <div style="padding: 20px;">
+                  <img src="img/office365.png" style="height: 55px;">
+                  <p>Microsoft Office 365</p>
+                </div>
+              </div>
+              <div class="col s4">
+                <div style="padding: 20px;">
+                  <img src="img/gmail.png" style="height: 55px;">
+                  <p>Gmail</p>
+                </div>
+              </div>
+              <div class="col s4">
+                <div style="padding: 20px;">
+                  <img src="img/slack.png" style="height: 55px;">
+                  <p>Slack</p>
+                </div>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="white">
+    <div class=""> <!--container-->
+      <div class="section">
+        <div class="row">
+          <div class="col s12">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h3 class="center" style="font-weight: 100;">Fabulous Customers and their Favorite Features</h3>
+            <br>
+            <!--<div class="row">
+              <div class="col s12 m6">
+                <div class="card sticky-action" style="overflow: hidden;">
+                  <div class="card-image waves-effect waves-block waves-light">
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">"Sales reps no longer have to log any emails as activities"
+                      <i class="material-icons right">visibility</i>
+                    </span>
+
+                    <p>
+                      Etai Beck, Founder &amp; CEO
+                      <br><a href="#!"><img src="img/folloze_logo.png" class="responsive-img" style="height: 21px;"></a>
+                    </p>
+                  </div>
+
+                  <div class="card-action">
+                    <a href="#" class="btn-flat light-blue-text text-accent-4"><i class="material-icons left">play_circle_outline</i> See How</a>
+                  </div>
+
+                  <div class="card-reveal" style="display: none; transform: translateY(0px);">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>“Folloze sales reps no longer have to log any emails as activities, as with Komiko it’s automatically in SFDC—both incoming and outgoing emails. This gives us a very accurate sense of activities with every account across the funnel stages. Add to that Komiko's connection strength scoring and maps and you have a very powerful forecasting support engine.”</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6">
+                <div class="card sticky-action" style="overflow: hidden;">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/talyst.jpg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">"Greater clarity with a 360 degree view into our accounts"
+                      <i class="material-icons right">visibility</i>
+                    </span>
+
+                    <p>
+                      Michael Blondin, Director of Sales &amp; Marketing
+                      <br><a href="#!"><img src="img/talyst_logo.png" class="responsive-img" style="height: 20px;"></a>
+                    </p>
+                  </div>
+
+                  <div class="card-action">
+                    <a href="#" class="btn-flat light-blue-text text-accent-4"><i class="material-icons left">play_circle_outline</i> See How</a>
+                  </div>
+
+                  <div class="card-reveal" style="display: none; transform: translateY(0px);">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>“Komiko has provided us greater clarity with a 360 degree view into our accounts. It has increased the productivity of my Sales Team and eliminated the hassle of updating the CRM.”</p>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+            <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s8 offset-s2">
+                <div class="carousel carousel-slider center" data-indicators="true">
+                  
+                  <div class="carousel-item blue-grey lighten-5" href="#one!">
+                    <h5>Automatically Populates SFDC</h5>
+                    <p>"Sales reps no longer have to log any emails as activities"
+                    <br>
+                      Etai Beck, Founder &amp; CEO, Folloze
+                    </p>
+                    <img src="img/folloze.jpg">
+                  </div>
+                  <div class="carousel-item blue-grey lighten-5" href="#two!">
+                    <h5>Visibility</h5>
+                    <p>"Greater clarity with a 360 degree view into our accounts"
+                    <br>
+                      Michael Blondin, Director of Sales &amp; Marketing, Talyst
+                    </p>
+                    <img src="img/talyst.jpg">
+                  </div>
+                  <div class="carousel-item blue-grey lighten-5" href="#three!">
+                    <h5>Fast &amp; Simple</h5>
+                    <p>"Komiko was easy to set up and configure and works great!"
+                    <br>
+                      Forrest Cook, Team Lead, AppFolio
+                    </p>
+                    <img src="img/appfolio.jpg">
+                  </div>
+                </div>
+                <br>
+                <div class="carousel-fixed-item center">
+                    <a class="btn waves-effect white light-blue-text text-accent-3">check out their stories @fabulous by komiko</a>
+                  </div>
+                  
+                </div>
+                </div>
+
+                </div>
+                </div>
+                <!--
+                <div class="carousel">
+                  <a class="carousel-item" href="#one!"><img src="img/Hitachi_1.png"></a>
+                  <a class="carousel-item" href="#two!"><img src="img/talyst_logo.png"></a>
+                  <a class="carousel-item" href="#three!"><img src="img/verity_logo.png"></a>
+                  <a class="carousel-item" href="#four!"><img src="img/priority_bike.png"></a>
+                  <a class="carousel-item" href="#five!"><img src="img/CittaDesign_1.png"></a>
+                  <a class="carousel-item" href="#six!"><img src="img/AppFolio.png"></a>
+                  <a class="carousel-item" href="#seven!"><img src="img/folloze_logo.png"></a>
+                  <a class="carousel-item" href="#eight!"><img src="img/dynamic_communities.jpg"></a>
+                </div>-->
+           <div class="row center">
+                  <div class="col s12">
+                    <div style="height: 50px;display: inline;margin-left: auto;left: auto;right: auto;width: 30%;">
+                      <img src="img/Hitachi_1.png" style="width:140px;padding: 20px">
+                      <img src="img/dynamiccommunities-logo.png" style="width:140px;padding: 20px;">
+                    </div>
+                  
+                    <div style="height: 50px;display: inline;margin-left: auto;left: auto;right: auto;width: 30%;">
+                      <img src="img/talyst_logo.png" style="width:120px;padding: 20px;">
+                      <img src="img/verity_logo.png" style="width:120px;padding: 20px;">
+                    </div>
+                  
+                    <div style="height: 50px;display: inline;margin-left: auto;left: auto;right: auto;width: 30%;">
+                      <img src="img/Priority_Logo.png" style="width:90px;padding: 20px;">
+                      <img src="img/CittaDesign_1.png" style="width:100px;padding: 20px;">
+                    </div>
+                  
+                    <div style="height: 50px;display: inline;margin-left: auto;left: auto;right: auto;width: 30%;">
+                      <img src="img/AppFolio.png" style="width:140px;padding: 20px;">
+                      <img src="img/folloze_logo.png" style="width:140px;padding: 20px;">
+                    </div>
+                  </div>
+                </div>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="parallax-container valign-wrapper"> <!-- style="background: rgba(38,166,154,0.8)"-->
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row">
+        <div class="col s12 m6 offset-m3">
+          <div class="card white">
+            <div class="card-content">
+              <h4 class="center blue-grey-text text-darken-4" style="font-weight: 100;">30-day free trial</h4>
+              <p class="center blue-grey-text text-darken-4">Try every feature and add unlimited users. No credit card required.</p>
+
+              <div class="row">
+                <form class="col s10 offset-s1 blue-grey-text text-darken-4">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="first_name" type="text" class="validate">
+                      <label for="first_name">first name</label>
+                    </div>
+                  
+                    <div class="input-field col s12">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">last name</label>
+                    </div>
+                  
+                    <div class="input-field col s12">
+                      <input id="company" type="text" class="validate">
+                      <label for="company">company</label>
+                    </div>
+                  
+                    <div class="input-field col s12">
+                      <input id="phone_number" type="text" class="validate">
+                      <label for="phone_number">phone number</label>
+                    </div>
+                  
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 center">
+                      <a class="waves-effect waves-light btn deep-orange accent-2"><i class="material-icons left">done</i>get started</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/OCNVIH0.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <footer class="page-footer" style="background: #45474D;">
+    <div class="container">
+      <div class="row center">
+        <div class="col l3 s6" style="text-align: left;">
+          <h6 style="text-transform: uppercase;">Links</h6>
+          <ul class="footer-list">
+            <li class="footer-links"><a href="#!">Link 1</a></li>
+            <li class="footer-links"><a href="#!">Link 2</a></li>
+            <li class="footer-links"><a href="#!">Link 3</a></li>
+            <li class="footer-links"><a href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s6" style="text-align: left;">
+          <h6 style="text-transform: uppercase;">Links</h6>
+          <ul class="footer-list">
+            <li class="footer-links"><a href="#!">Link 1</a></li>
+            <li class="footer-links"><a href="#!">Link 2</a></li>
+            <li class="footer-links"><a href="#!">Link 3</a></li>
+            <li class="footer-links"><a href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s6" style="text-align: left;">
+          <h6 style="text-transform: uppercase;">Links</h6>
+          <ul class="footer-list">
+            <li class="footer-links"><a href="#!">Link 1</a></li>
+            <li class="footer-links"><a href="#!">Link 2</a></li>
+            <li class="footer-links"><a href="#!">Link 3</a></li>
+            <li class="footer-links"><a href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s6" style="text-align: left;">
+          <h6 style="text-transform: uppercase;">Contact &amp; Info</h6>
+          <ul class="footer-list">
+            <li class="footer-links"><a href="#!">About us</a></li>
+            <li class="footer-links"><a href="#!">Partners</a></li>
+            <li class="footer-links"><a href="#!">Media</a></li>
+            <li class="footer-links"><a href="#!">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright" style="height:100%;background-color: rgba(51, 51, 51, 0.3);">
+      <div class="container">
+      <div class="row" style="margin-bottom: 0;margin-top: 1rem;">
+        <div class="col s12 m8">
+          <a class=""><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+          <a class=""><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+          <a class=""><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a>
+          <a class=""><i class="fa fa-wordpress fa-lg" aria-hidden="true"></i></a>
+        </div>
+        <div class="col s12 m4" style="text-align: right;">
+          <a class="">Legal</a>
+          <a class="">Privacy</a>
+        </div>
+      </div>
+      <div style="font-size: 75%;font-weight: 100;">© 2017 Komiko. All rights reserved. Komiko and the Komiko logo are trademarks of Komiko. 
+      </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.2/dialog-polyfill.min.js'></script>
+  <script src="js/TweenLite.min.js"></script>
+  <script src="js/EasePack.min.js"></script>
+  <script src="js/rAF.js"></script>
+  <script src="js/demo-1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel.carousel-slider').carousel({full_width: true});
+    });
+  </script>
+  </body>
+</html>

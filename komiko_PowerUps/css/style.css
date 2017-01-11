@@ -1,0 +1,109 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav {
+  border-bottom: 1px solid #0091ea;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 7px;
+}
+nav ul
+ a {
+    font-size: 1.2rem;
+    color: #566473;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: 300;
+    padding: 0px 15px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.modul-space-eight {
+    padding-top: 60px;
+    /*padding-bottom: 100px;*/
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+footer h6 {
+  color: #DADADB;
+}
+
+.footer-links {
+  margin: 0;
+  padding: .1875rem 0 0;
+  font-weight: 100;
+}
+
+.footer-list a {
+    color: #A8A9AC;
+}
+
+.footer-list a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-copyright a {
+    color: #A8A9AC;
+    padding: 1.5rem 3rem 0 0;
+}
+
+.footer-copyright a:hover {
+    color: #fff;
+    cursor: pointer;
+}
